@@ -1,0 +1,165 @@
+
+<!-- saved from url=(0069)https://info2300.coecis.cornell.edu/users/bjg226sp16/www/p2/index.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Yugioh Monster Card Database</title>
+		<link rel="stylesheet" type="text/css" href="./Yugioh Monster Card Database_files/style.css">
+	</head>
+	<body>
+		<div class="head">
+			<div class="container">
+				<img src="./Yugioh Monster Card Database_files/ygo.png">
+			</div>
+		</div>
+		<div class="forms">
+			<div class="container">
+				<div class="half-container-left">
+					<h1 style="text-align:center;">Add</h1>	
+					<!-- Add Form --> 
+					<form method="post" action="https://info2300.coecis.cornell.edu/users/bjg226sp16/www/p2/index.php">
+						<div class="label">
+							<label>Name</label>
+							<input id="name" type="text" name="add_name" maxlength="45" required=""><br>
+						</div>
+						<div class="label">
+							<label>URL Image (Optional)</label>
+							<input id="image" type="text" name="add_image"><br>
+						</div>
+						<div class="label">
+							<label>Beast Attribute </label>
+							<select name="add_attr" required="">
+								<option value="">Please select</option>
+								<option value="Dark">Dark</option>
+	  							<option value="Divine">Divine</option>
+	  							<option value="Earth">Earth</option>
+	  							<option value="Fire">Fire</option>
+	  							<option value="Light">Light</option>
+	  							<option value="Water">Water</option>
+	  							<option value="Wind">Wind</option>
+							</select>
+						</div>
+						<div class="label">
+							<label>Attack Points </label>
+							<input type="number" name="add_atk" min="0" max="9999" required=""><br>
+						</div>
+						<div class="label">
+							<label>Defense Points </label>
+							<input type="number" name="add_def" min="0" max="9999" required=""><br>
+						</div>
+						<div class="label">
+							<label>Monster Type </label>
+							<select name="add_type" required="">
+								<option value="">Please select</option>
+								<option value="Aqua">Aqua</option>
+	  							<option value="Beast">Beast</option>
+	  							<option value="Beast-Warrior">Beast-Warrior</option>
+	  							<option value="Creator-God">Creator God</option>
+	  							<option value="Dinosaur">Dinosaur</option>
+	  							<option value="Divine-Beast">Divine-Beast</option>
+	  							<option value="Dragon">Dragon</option>
+	  							<option value="Fairy">Fairy</option>
+	  							<option value="Fiend">Fiend</option>
+	  							<option value="Fish">Fish</option>
+	  							<option value="Insect">Insect</option>
+	  							<option value="Machine">Machine</option>
+	  							<option value="Plant">Plant</option>
+	  							<option value="Psychic">Psychic</option>
+	  							<option value="Pyro">Pyro</option>
+	  							<option value="Reptile">Reptile</option>
+	  							<option value="Rock">Rock</option>
+	  							<option value="Sea-Serpent">Sea Serpent</option>
+	  							<option value="Spellcaster">Spellcaster</option>
+	  							<option value="Thunder">Thunder</option>
+	  							<option value="Warrior">Warrior</option>
+	  							<option value="Winged-Beast">Winged Beast</option>
+	  							<option value="Wyrm">Wyrm</option>
+	  							<option value="Zombie">Zombie</option>
+							</select>
+						</div>
+						<div class="label">
+							<label>Description</label>
+							<textarea name="add_des" rows="4" cols="25" required=""></textarea>
+						</div>
+						<div class="label">
+							<input id="submit" type="submit" name="add" value="Add">						
+						</div>
+					</form>
+				</div>
+				<div class="half-container-right">
+					<h1 style="text-align:center;">Search</h1>
+					<!-- search form --> 
+					<form method="post" action="https://info2300.coecis.cornell.edu/users/bjg226sp16/www/p2/index.php">
+						<div class="label">
+							<label>Name</label>
+							<input id="name" type="text" name="search_name" maxlength="45"><br>
+						</div>
+						<div class="label">
+							<label>Beast Attribute </label>
+							<select name="search_attr">
+								<option value="">Please select</option>
+								<option value="Dark">Dark</option>
+	  							<option value="Divine">Divine</option>
+	  							<option value="Earth">Earth</option>
+	  							<option value="Fire">Fire</option>
+	  							<option value="Light">Light</option>
+	  							<option value="Water">Water</option>
+	  							<option value="Wind">Wind</option>
+							</select>
+						</div>
+						<div class="label">
+							<label>Attack Points </label>
+							<input type="number" name="search_atk" min="0" max="9999"><br>
+						</div>
+						<div class="label">
+							<label>Defense Points </label>
+							<input type="number" name="search_def" min="0" max="9999"><br>
+						</div>
+						<div class="label">
+							<label>Monster Type </label>
+							<select name="search_type">
+								<option value="">Please select</option>
+								<option value="Aqua">Aqua</option>
+	  							<option value="Beast">Beast</option>
+	  							<option value="Beast-Warrior">Beast-Warrior</option>
+	  							<option value="Creator-God">Creator God</option>
+	  							<option value="Dinosaur">Dinosaur</option>
+	  							<option value="Divine-Beast">Divine-Beast</option>
+	  							<option value="Dragon">Dragon</option>
+	  							<option value="Fairy">Fairy</option>
+	  							<option value="Fiend">Fiend</option>
+	  							<option value="Fish">Fish</option>
+	  							<option value="Insect">Insect</option>
+	  							<option value="Machine">Machine</option>
+	  							<option value="Plant">Plant</option>
+	  							<option value="Psychic">Psychic</option>
+	  							<option value="Pyro">Pyro</option>
+	  							<option value="Reptile">Reptile</option>
+	  							<option value="Rock">Rock</option>
+	  							<option value="Sea-Serpent">Sea Serpent</option>
+	  							<option value="Spellcaster">Spellcaster</option>
+	  							<option value="Thunder">Thunder</option>
+	  							<option value="Warrior">Warrior</option>
+	  							<option value="Winged-Beast">Winged Beast</option>
+	  							<option value="Wyrm">Wyrm</option>
+	  							<option value="Zombie">Zombie</option>
+							</select>
+						</div>
+						<!-- <div class="label">
+							<label>Description</label>
+							<textarea rows="4" cols="25" name="search_des"></textarea>
+						</div> -->
+						<div class="label">
+							<input id="submit" type="submit" name="search" value="Search">						
+						</div>
+						<div class="label">
+							<input id="submit" type="submit" name="showall" value="Show All">						
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+				<div id="results">
+			<div class="container">
+				<h1>Here are your search results</h1><div class="cell"><img src="./Yugioh Monster Card Database_files/notfound.jpg"><h2>12</h2><h3>Beast Type: Dark</h3><h3>Attack Points: 1</h3><h3>Defense Points: 1</h3><p>Monster Type: Sea-Serpent</p><p>Desciption: </p><p>s</p></div>			</div>
+		</div>
+	
+</body></html>

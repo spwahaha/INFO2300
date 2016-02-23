@@ -1,0 +1,60 @@
+.mobile-menu {
+	display: none;
+	font-size: 30px;
+}
+
+.mobile-menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.mobile-menu ul li {
+	display: inline; 
+}
+
+.mobile-menu a {
+	color: white;
+	text-decoration: none;
+}
+
+@media (max-width: 700px), (min-width: 700px) and (max-width: 1100px) {
+	.about-img, .shea-headshot {
+		display: block;
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 10px;
+		width: 70%;
+	}
+	.body-text {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	.content {	
+		padding: 0;
+		width: 100%;
+	}
+	.footer {
+		font-size: 18px;
+	}
+	.footer-copy, .footer-social  {
+		padding: 5px;
+	}
+	
+	.menu {
+		float: none;
+		display: none;
+	}
+	.mobile-menu {
+		display: block;
+	}
+}
+@media (min-width: 1100px) and (max-width: 1215px) {
+	.menu li {
+		width: 150px;
+	}
+}
+ 

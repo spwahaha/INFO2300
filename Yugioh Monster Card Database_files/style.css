@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Exo+2:300);			
+body {
+	margin: 0; 
+	padding: 0; 
+	background: #AF1D1D; 
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 200; 
+	color: white; 
+}
+.container {
+	width: 75%; 
+	margin: 0 auto; 
+}
+.head {
+	width: 100%;
+	height: 150px; 
+	background: #950D0D; 
+	text-align: center; 
+}
+.head img {
+	margin: 0 auto; 
+}
+.half-container-left {
+	height: 20%; 
+	width: 50%;
+	float: left;
+}
+.half-container-right {
+	height: 20%; 
+	width: 50%;
+	float: right;
+}
+#results {
+	 width: 100%; 
+}
+form input {
+	width: 50px;
+	float: left;
+}
+#name {
+	width: 200px; 
+}
+form label {
+	display: inline-block;
+	color: white;
+	font-weight: 300;
+	float: left; 
+	font-size: 1.2rem;
+	padding-right: 5px; 
+	width: 140px;
+}
+form textarea {
+	display: inline-block;
+	float: left; 
+	margin-bottom: 10px;
+}
+br {
+	margin-bottom: 13px;
+}
+hr {
+	border-top: 1px solid white;
+	opacity: .2;
+}
+#submit {
+	width: 100px;
+	border: none;
+	background: #961919;
+	text-align: center; 
+	color: white;
+	padding: 1rem;
+	display: inline-block;
+	font-family: 'Exo 2', sans-serif;
+	opacity: .8;
+	font-size: 1rem;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 2px 0px 0px #631010;
+}
+.label {
+	padding-bottom: 10px; 
+	float: left;
+	width: 100%;  
+}
+select {
+	float: left; 
+}
+.cell {
+	width: 100%; 
+	height: 400px;
+}
+.cell img {
+	float: left; 
+	height: 400px;
+	width: 280px;
+	padding-right: 10px; 
+	padding-bottom: 10px;  
+}
+.forms {
+	width: 100%;
+	height: 420px;
+}
+#image {
+	width: 300px;
+}

@@ -1,0 +1,177 @@
+html, body {
+	margin: 0; 
+	height: 100%;
+	padding: 0;
+	width: 100%;
+	background: #CC3333;
+}
+
+.main{
+	background-image: url(http://pic1.win4000.com/wallpaper/1/5695ff8b208d4.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;    
+}
+
+
+
+audio{
+    display: none;
+}
+.logo{
+    font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+    font-size: 3rem;
+    color: #ffd700;
+    text-align: center;
+}
+
+.container {
+	width: 75%; 
+	margin: 0 auto; 
+	padding-top: 0.3%;
+	padding-bottom: 2%;
+}
+
+.nav-bar {
+	display: inline;
+}
+.nav-bar li a {
+	display: inline;
+	color: white; 
+	font-size: 1.2rem;
+	font-weight: 300; 
+	text-decoration: none;
+    
+}
+.nav-bar ul {
+    float: right;   
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-bar li {
+	display: block;
+	color: white; 
+	font-size: 3rem;
+	font-weight: 400; 
+	padding: 1px 25px;
+	height: 50%;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+.nav-bar a:hover, nav .selected {
+	border-bottom: 3px solid #ffd700;
+}
+
+.theme {
+    float:left;
+    margin: 10% 0 0 0;
+    width: 30%;
+    Color: white;
+    }
+    
+.introduction {
+    color: white;
+    font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+    }
+
+
+
+.introduction p{
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+img{
+    margin: 0 10%;
+    position: center;
+    width: 80%;
+    height: 80%;    
+}
+
+#origin img{
+    margin: 0 10%;
+    position: center;
+    width: 80%;
+    height: 80%;
+}
+
+#monkey img{
+    margin: 0 10%;
+    position: center;
+    width: 80%;
+    height: 500px;    
+}
+
+.traditions{
+    color: white;
+    font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+}
+
+
+
+.traditions p{
+    text-align: center;
+    font-size: 3rem;
+}
+
+#info{
+}
+#info #tuple{
+    margin: 10px 25px;
+}
+
+.divine {
+    font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+}
+
+.divine p{
+    font-size: 2rem;
+}
+
+.footer {
+    text-align: center;
+	border-top: 5px solid #FA6121;
+	color: white;
+	font-size: 17px;
+	height: 20px;
+	left: 0;
+	padding-top: 5px;
+	position: absolute;
+	width: 100%;
+}
+
+.container .inputSection{
+    float:left;
+    width:40%;
+}
+
+.container .outputSec{
+    float:right;
+    width:50%;
+}
+
+form input {
+    float:right;
+	width: 200px;
+    height:20px;
+    border: 3px solid #CCCCCC;
+    margin: 5px 0;
+}
+form label {
+	display: inline-block;
+	color: white;
+	font-family: 'Lato','sans-serif';
+	font-weight: 300;
+	font-size: 1.2rem;
+    margin: 10px 0;
+}
+.gender input{
+    float:none;
+    width: 10px;
+}
+.gender label{
+    margin:0 32% 0 0;
+}
