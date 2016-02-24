@@ -60,7 +60,8 @@ form input{
 
 .button{
 	float: right;
-	padding-right: 15%;
+	margin-right: 5%;
+	margin-top: 2%;
 	height: 30px;
 }
 
