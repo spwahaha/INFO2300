@@ -105,10 +105,13 @@
 .albums{width:90%; margin:0 auto;}
 .pics{width:90%; margin:0 auto;}
 .pics ul{overflow:hidden;width:90%;margin:0 auto}
-.pics ul li{list-style:none;float:left;width:255px;height:140px;margin:2px;*margin:1px;border-radius:5px;border:2px solid #fff;text-align:center; no-repeat center #e1e1e1}
+.pics ul li{list-style:none;float:left;width:24%;height:140px;margin:2px;*margin:1px;border-radius:5px;border:2px solid #fff;text-align:center; no-repeat center #e1e1e1}
 .pics img{
   width: 100%;
 }
+#Albumpics ul li{list-style:none;float:left;width:24%;height:180px;margin:2px;*margin:1px;border-radius:5px;border:2px solid #fff;text-align:center; no-repeat center #e1e1e1}
+
+
 td {
     text-align: center;
     font-size: 1.3rem;

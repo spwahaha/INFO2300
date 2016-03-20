@@ -15,13 +15,10 @@
   <p>
     This page is the home page
   </p>
-<!--   <?php 
-      include("insertImageInfo.php");
-     ?>  -->
-  
+
   <div class="albums">
     <?php 
-      include ("loadDatabase.php");
+      include ("loadAlbum.php");
      ?>
   </div>
 

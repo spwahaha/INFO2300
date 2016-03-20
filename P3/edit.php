@@ -15,5 +15,21 @@
   <p>
     This page allow user to edit their album and image database
   </p>
+  <?php 
+    include("loadAlbum.php");
+    include("showPicByAlbum.php");
+   ?>
+   <div id="Albumpics" class="pics">
+      <?php 
+    if(isset($_GET["Aid"])){
+      $Aid = $_GET["Aid"];
+      // print $Aid;
+      if (is_numeric($Aid)) {
+          getImageByAlbumId($Aid);
+      }
+    }
+    ?>
+   </div>
+
 </body>
 <html>
