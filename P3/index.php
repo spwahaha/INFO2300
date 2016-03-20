@@ -10,17 +10,14 @@
 <body>
 
    <?php 
-      include("nav.php")
+      include("nav.php");
+      include("config.php");
     ?>
   <p>
     This page is the home page
   </p>
 
-  <div class="albums">
-    <?php 
-      include ("loadAlbum.php");
-     ?>
-  </div>
+
 
    <div class="pics">
        <?php 

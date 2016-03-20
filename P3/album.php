@@ -16,9 +16,10 @@
     This page allow user to edit their album and image database
   </p>
   <?php 
-    include("loadAlbum.php");
-    include("showPicByAlbum.php");
+     include("config.php");
+    include("editAlbum.php");
    ?>
+
    <div id="Albumpics" class="pics">
       <?php 
     if(isset($_GET["Aid"])){
@@ -27,9 +28,16 @@
       if (is_numeric($Aid)) {
           getImageByAlbumId($Aid);
       }
+    }else{
+         include("loadAlbum.php");
     }
     ?>
-   </div>
+       </div>
+
+        <p>
+      Add new Album
+    </p>
+
 
 </body>
 <html>

@@ -3,8 +3,8 @@
 <!-- 	   <li class='active'><a href='index.php'>Home</a></li>
  -->	   	
  		<li><a href='index.php'>Home</a></li>
-	   <li><a href='edit.php'>Edit album</a></li>
-	   <li><a href='login.php'>Sign In</a></li>
-	   <li><a href='setting.php'>Setting</a></li>
+	   <li><a href='album.php'>Album</a></li>
+	   <li><a href='add.php'>Add</a></li>
+	   <li><a href='login.php'>Login</a></li>
 	</ul>
 </div>
