@@ -34,10 +34,5 @@
     ?>
        </div>
 
-        <p>
-      Add new Album
-    </p>
-
-
 </body>
 <html>

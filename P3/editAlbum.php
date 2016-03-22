@@ -31,8 +31,8 @@
 
 	function insertAlbum($title){
 		$mysqli = new mysqli(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME);
-		$result = $mysqli->query("INSERT INTO Albums (Title) VALUES ('$title')");
-		
+		$result = $mysqli->query("INSERT INTO Albums (Title, Date_created, Date_modified) VALUES ('$title', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)");
+		// print("INSERT INTO Albums (Title, Date_created, Date_modified) VALUES ('$title', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)");
 	}
 
 	function insertPhoto($originalName, $path,$credit, $seletedAlbum){
