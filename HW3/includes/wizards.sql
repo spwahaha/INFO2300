@@ -38,8 +38,8 @@ CREATE TABLE IF NOT EXISTS `wizards` (
 -- Dumping data for table `wizards`
 --
 
-INSERT INTO `wizards` (`wID`, `firstName`, `lastName`, `school`) VALUES
-(1, 'John', 'Doe', 'Hogwarts');
+-- INSERT INTO `wizards` (`wID`, `firstName`, `lastName`, `school`) VALUES
+-- (1, 'John', 'Doe', 'Hogwarts');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

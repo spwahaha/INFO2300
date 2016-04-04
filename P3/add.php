@@ -17,10 +17,11 @@
   <p>
     This page allow users add album or images
   </p>
-        <p>
-      Add new Album
-    </p>
+        
     <div class="addalbum">
+      <p>
+        Add new Album
+      </p>
         <form action="add.php" method="post">
           <label for="new-album">Title: </label>
           <input id="new-album" type="text" name="title">

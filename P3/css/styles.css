@@ -35,7 +35,7 @@
 }
 .nav > ul > li {
   float: left;
-  width: 25%;
+  width: 20%;
     text-align: center;
 }
 .nav.align-center > ul {
@@ -136,6 +136,7 @@ p{
 .addalbum{
   width:90%;
   margin: 0 auto;
+  text-align: center;
 }
 
 .addphoto {
@@ -145,4 +146,25 @@ p{
 .addphoto .checkBox{
   float: left;
   padding-left: 40px; 
+}
+
+.login{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.search{
+  text-align: center;
+}
+
+.image{
+  text-align: center;
+}
+
+.image img{
+  margin: 0 25%;
+
+  width: 50%;
+  height: 50%
 }

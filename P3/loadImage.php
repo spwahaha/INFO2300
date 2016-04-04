@@ -12,9 +12,12 @@
 		// len = strlen($image);
 
 		$imgPath = $row["File_path"];
+		$Iid = $row["Iid"];
 		// print($imgPath);
 		print("<li>");
+        print("<a href='image.php?Iid=$Iid'>");
 		print("<img src= '$imgPath' alt='' >");
+		print("</a>");
 		print("</li>");
 	}
 	print("</ul>");

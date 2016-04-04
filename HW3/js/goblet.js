@@ -109,7 +109,9 @@ $(document).ready(function() {
 
 		requestNameCheck.success(function(data) {
 			// TODO: Finish this success function so that you change the text of the ".goblet-msg" html class.
-			$(".goblet-msg").val(data);
+			var info = "<p>" + firstName + " " + lastName + " from " + school + " added into the goblet!! </p>";
+			console.log("info: " + info);
+			$(".goblet-msg").append(info);
 		})
 
 
@@ -145,7 +147,6 @@ $(document).ready(function() {
 			if (data === 'NULL'){
 				$(".goblet-msg-valid").append("<p>No one's name is in the goblet</p>");
 			}else{
-				console.log("not null");
 				data = JSON.parse(data);
 				var firstName = data.firstName;
 				var lastName = data.lastName;

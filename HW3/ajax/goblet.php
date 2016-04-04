@@ -43,7 +43,6 @@
 		die();
 	}
 
-		
 	switch ( $request_type ) {
 		
 		//The following code has been done as an example for you. This function checks the database for duplicates
@@ -82,7 +81,6 @@
 			$firstName = filter_input(INPUT_POST, "firstName", FILTER_SANITIZE_STRING);
 			$lastName = filter_input(INPUT_POST, "lastName", FILTER_SANITIZE_STRING);
 			$school = filter_input(INPUT_POST, "school", FILTER_SANITIZE_STRING);
-
 			$query = "INSERT INTO wizards (firstName, lastName, school) VALUES ('$firstName', '$lastName', '$school');";
 			$result = $mysqli->query($query);
 			//TODO: Should attempt to add a new wizard to the database corresponding

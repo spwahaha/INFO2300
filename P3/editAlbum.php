@@ -13,12 +13,38 @@
 			$imgPath = $row["File_path"];
 			// print($imgPath);
 			print("<li>");
+			$Iid = $row["Iid"];
+	        print("<a href='image.php?Iid=$Iid'>");
 			print("<img src= '$imgPath' alt='' height='140px'>");
 			// print(str_replace("#",",",$row["Title"]));
+			print("</a>");
 			print("</li>");
 		}
 		print("</ul>");
 	}
+
+	function getImageByImageId($Iid){
+		$mysqli = new mysqli(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME);
+		$result = $mysqli->query("SELECT * FROM Images i WHERE  i.Iid=$Iid");
+		while ($row = $result->fetch_assoc()) {
+			$image = $row["Title"];
+			$count = 2;
+			$image = str_replace("#",",",$image);
+			$date_token = $row["Date_created"];
+			$credit = $row["Credit"];
+			// len = strlen($image);
+			$imgPath = $row["File_path"];
+			// print($imgPath);
+			print("<img src= '$imgPath' alt=''>");
+			print("<h2>Title: $image</h2>");
+			print("<h2>Date Token: $date_token</h2>");
+			print("<h2>Credit: $credit</h2>");
+			// print(str_replace("#",",",$row["Title"]));
+		}
+	}
+
+
+
 
 	function validInput($title){
 		$title = trim($title);
