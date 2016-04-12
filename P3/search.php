@@ -12,7 +12,7 @@
    <?php 
       include("config.php");
       include("nav.php");
-      include("editAlbum.php");
+      include("util.php");
     ?>
   <p>
     This page allow users search album or images

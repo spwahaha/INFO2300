@@ -12,6 +12,7 @@
    <?php 
       include("nav.php");
       include("config.php");
+      include("util.php");
     ?>
   <p>
     This page is the home page
@@ -21,7 +22,7 @@
 
    <div class="pics">
        <?php 
-      include("loadImage.php")
+       loadImage();
       ?>
     </div>
    

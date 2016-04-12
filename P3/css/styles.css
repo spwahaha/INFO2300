@@ -41,7 +41,7 @@
 .nav.align-center > ul {
   font-size: 0;
 /*  text-align: center;
-*/}
+*/}z
 .nav.align-center > ul > li {
   display: inline-block;
   float: none;
@@ -103,7 +103,7 @@
 .AlbumContainer li{ color:#333; text-align:left; padding-left:20px; line-height:24px;}
 */
 .albums{width:90%; margin:0 auto;}
-.pics{width:90%; margin:0 auto;}
+.pics{width:90%; margin:0 auto; text-align: center;}
 .pics ul{overflow:hidden;width:90%;margin:0 auto;}
 .pics ul li{list-style:none;float:left;width:24%;height:140px;margin:2px;*margin:1px;border-radius:5px;border:2px solid #fff;text-align:center; no-repeat center #e1e1e1}
 .pics img{
@@ -141,9 +141,9 @@ p{
 
 .addphoto {
   width: 70%;
-  margin:0 auto;
+  margin:10px auto;
 }
-.addphoto .checkBox{
+.checkBox{
   float: left;
   padding-left: 40px; 
 }
@@ -167,4 +167,13 @@ p{
 
   width: 50%;
   height: 50%
+}
+
+
+.edit a{
+  margin: 0 10px;
+}
+form{
+  margin: 10px 0;
+  text-align: center;
 }
